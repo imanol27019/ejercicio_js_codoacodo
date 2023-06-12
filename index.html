@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!--iconos copados-->
+    <script src="https://kit.fontawesome.com/f7e11ecd87.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="header" class="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img class="logo" src="codoacodo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div id="contenedor-aux1" class="contenedor-aux1">
+    </div>
+    <main>
+        <div class="valor-ticket descuentos">
+            Descuentos: Estudiante 80%, Trainee 50%, Junior 15%
+        </div>
+        <div class="valor-ticket">
+            VALOR TIKET 200
+        </div>
+        <div class="container formulario">
+            <div class="row">
+                <div class="col md-6">
+                    <input id="input-nombre" type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                </div>
+                <div class="col md-6">
+                    <input id="input-apellido" type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col md-12">
+                    <input id="input-correo" type="email" class="form-control" placeholder="Correo" aria-label="Correo">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col md-6">
+                    Cantidad
+                </div>
+                <div class="col md-6">
+                    Categoria
+                </div>
+            </div>
+            <div class="row">
+                <div class="col md-6">
+                    <input id="input-cantidad" type="number" class="form-control" placeholder="Cantidad" aria-label="Cantidad">
+                </div>
+                <div class="col md-6">
+                    <select id="select-categoria" class="form-select" aria-label="Default select example">
+                        <option value="0" selected>--Seleccionar--</option>
+                        <option value="1">Estudiante</option>
+                        <option value="2">Trainee</option>
+                        <option value="3">Junior</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col md-12 total">
+                    <p id="total" >Total a pagar: </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col md-6">
+                    <button id="borrar" type="button" class="btn btn-success">Borrar</button>
+                </div>
+                <div class="col md-6">
+                    <button id="resumen" type="button" class="btn btn-success">Resumen</button>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <script src="main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
